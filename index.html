@@ -1,11 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My first ecommerce site</title>
-</head>
-<body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <!-- header section start -->
+    <header>
+        <div class="w-[95%] mx-auto lg:w-[75%]">
+            <div class="flex justify-between my-3 items-center">
+                <img src="./image/logo.jpg" class="relative right-6" alt="">
+               <div class="text-sky-500 flex gap-5">
+                <button><i class="fa-solid fa-headset"></i> Support</button>
+                <button> <i class="fa-regular fa-user"></i> Account</button>
+               </div>
+            </div>
     
-</body>
+            <nav class="flex justify-between items-center">
+                <ul class="flex items-center gap-5">
+                    <li><a href="#">Hot deals</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Page</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="relative">
+                    <input type="text" class="border-2 w-72 relative border-sky-500">
+                    <button class="text-sky-500 absolute right-3"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <div class="flex gap-5 items-center text-sky-500">
+                    <button><i class="fa-regular fa-heart"></i></button><button>Add to whitelist</button><button><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </nav>
+        </div>
+    </header>
+  </body>
 </html>
